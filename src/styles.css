@@ -11093,7 +11093,7 @@ html {
 /*! HINTERGRUNDBLID AQUARELL UND HÖHE FESTGELEGT */
 /*! WARUM IST DER BOX-SHADOW AB EINER KLEINEN GRÖßE UND NICHT AB DER GROßEN GRÖßE */
 .masthead {
-  background-image: url("../img/IMG_royalblue_7633.jpg");
+  background-image: url("img/IMG_royalblue_7633.jpg");
   box-shadow: 5px 5px 15px rgb(17, 1, 52);
   background-size: cover;
   background-repeat: no-repeat;
