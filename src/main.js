@@ -1,4 +1,4 @@
-import registerClickBtn from "./btnUndEingabeActionen";
+import registerClickBtn from "./btnUndEingabeActionen.js";
 
 function main()
 {
