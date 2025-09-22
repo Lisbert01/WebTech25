@@ -1,0 +1,20 @@
+.card {
+    min-height: 7em;
+    background-color: blue;
+    border-radius: 12px;
+    margin-bottom: 2;
+    display: flex;
+}
+
+.card-left {
+background-color: aquamarine;
+width: 20%;
+min-height: 100%;
+
+}
+
+.card-rigth {
+background-color: rgb(255, 127, 229);
+width: 80%;
+min-height: 100%;
+}

@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>Zitate</h1>
+
+    <table class="table table-striped">
+        <caption>Ausgewählte Zitate</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Zitat</th>
+                <th scope="col">Jahr</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (zitat of zitate; track $index; let i = $index) {
+                <tr>
+                    <td>{{ i+1 }} </td>
+                    <td>{{ zitat.jahr }}</td>
+                    <td>{{ zitat.zitat }}</td>
+                    <td>
+                        <a [href]="zitat.link">
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
