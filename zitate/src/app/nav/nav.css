@@ -1,0 +1,68 @@
+.navbar-custom {
+    background-color: royalblue;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+    color: darkblue;
+}
+
+.card {
+    min-height: 8ex;
+    margin-top: 2ex;
+    margin-left: 2ex;
+    margin-right: 2ex;
+}
+
+.card-left {
+    background-color: blue;
+    width: 20%;
+    min-height: 100%;
+}
+
+.card-right {
+    background-color: blue;
+    width: 80%;
+    min-height: 100%;
+}
+
+.background-image-zitate {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height : 85vh;
+  margin-bottom: 2ex;
+  margin-top: 4ex;
+  margin-left: 2ex;
+  margin-right: 2ex;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(63, 40, 233);
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.0);
+  text-align: center;
+}
+
+.p-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(56, 10, 183);
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
