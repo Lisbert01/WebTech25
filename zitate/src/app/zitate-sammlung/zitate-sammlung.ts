@@ -1,76 +1,68 @@
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-zitat-hinzufuegen',
-  imports: [],
-  templateUrl: './zitat-hinzufuegen.html',
- styleUrls: ['./zitat-hinzufuegen.css']
-
-})
-export class ZitatHinzufuegen {
-}
-
-
-
-/*import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-zitate-hinzufuegen',
+  selector: 'app-zitate-sammlung',
   standalone: true,
   imports: [],
-  templateUrl: './zitat-hinzufuegen.html',
-  styleUrl: './zitat-hinzufuegen.css'
+  templateUrl: './zitate-sammlung.html',
+  styleUrl: './zitate-sammlung.css'
 })
-export class ZitatHinzufuegen implements OnInit {
+export class ZitateSammlung implements OnInit {
    id: string | null = "";
     zitate = [
       {
         id: 1,
         name:"Ida",
-        zitat: "",
+        zitat: "dpvmpe verbve ebrb vwe",
         jahr: 2023,
       },
        {
         id: 2,
         name:"Ida",
-        zitat: "",
+        zitat: "qof woce weqnc kca",
         jahr: 2023,
       },
       {
         id: 3,
         name:"Ida",
-        zitat: "",
+        zitat: "kweevp wvp wdkdv",
         jahr: 2023,
       },
       {
         id: 4,
         name:"Ida",
-        zitat: "",
+        zitat: "qkkqw kcpq cmpqk",
         jahr: 2023,
       },
       {
         id: 5,
         name:"Ida",
-        zitat: "",
-        jahr: 2024,
+        zitat: "wjifen fjiepqjv eeoppfqp",
+        jahr: 2025,
       },
-       {
+      {
         id: 6,
-        name:"Albert",
-        zitat: "",
+        name:"Ida",
+        zitat: "baiabaia",
         jahr: 2025,
       },
        {
         id: 7,
         name:"Albert",
-        zitat: "",
+        zitat: "vwnf",
         jahr: 2025,
       },
        {
         id: 8,
         name:"Albert",
-        zitat: "",
+        zitat: "malern",
+        jahr: 2025,
+      },
+       {
+        id: 9,
+        name:"Albert",
+        zitat: "it das, ... rum",
         jahr: 2025,
       },
     ]
@@ -95,5 +87,20 @@ export class ZitatHinzufuegen implements OnInit {
     }
   }
 }
-*/
 
+
+
+/*
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-zitate-sammlung',
+  imports: [],
+  templateUrl: './zitate-sammlung.html',
+  styleUrl: './zitate-sammlung.css'
+})
+export class ZitateSammlung {
+
+}
+
+*/

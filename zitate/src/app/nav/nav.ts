@@ -9,5 +9,4 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './nav.css'
 })
 export class Nav {
-
 }

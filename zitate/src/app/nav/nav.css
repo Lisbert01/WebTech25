@@ -12,6 +12,10 @@
     color: darkblue;
 }
 
+.myactive {
+    font-weight: bold;
+}
+
 .card {
     min-height: 8ex;
     margin-top: 2ex;

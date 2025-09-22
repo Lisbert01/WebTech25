@@ -1,3 +1,17 @@
 import { Routes } from '@angular/router';
+import { Nav } from './nav/nav';
+import { ZitatHinzufuegen } from './zitat-hinzufuegen/zitat-hinzufuegen';
+import { ZitateSammlung } from './zitate-sammlung/zitate-sammlung';
 
-export const routes: Routes = [];
+
+export const routes: Routes = [
+    { path: "nav", component: Nav },
+    { path: "zitat-hinzufuegen", component: ZitatHinzufuegen },
+    { path: "zitate-sammlung", component: ZitateSammlung },
+    { path: "zitate-sammlung/:id", component: ZitateSammlung },
+    //{ path: "login", component: LoginComponent },
+    //{ path: "", component: HomeComponent, pathMatch: 'full' },
+    { path: "**", redirectTo: "" }
+];
+
+
