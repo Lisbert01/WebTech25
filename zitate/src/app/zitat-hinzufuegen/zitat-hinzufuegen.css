@@ -3,24 +3,39 @@
     margin-top: 2ex;
     margin-left: 2ex;
     margin-right: 2ex;
+    border-color: rgb(65, 105, 225, 0.5);
 }
+
+h1{
+    text-align: center;
+    margin-bottom: 2ex;
+    color: rgb(65, 105, 225);
+}  
 
 .container{
-    margin-top: 2ex;
-    margin-bottom: 2ex;
+    margin-top: 3ex;
+    margin-bottom: 7ex;
 }
 
-.card-left {
-    background-color: blue;
-    width: 20%;
-    min-height: 100%;
+input, select, textarea {
+    border: 2px solid #ccc;
+    transition: border-color 0.2s, box-shadow 0.3s;
 }
 
-.card-right {
-    background-color: blue;
-    width: 80%;
-    min-height: 100%;
+input:hover, input:focus,
+select:hover, select:focus,
+textarea:hover, textarea:focus {
+    border-color: rgb(65, 105, 225, 0.6);
+    box-shadow: 0 0 4px rgb(65, 105, 225);
+    outline: none;
 }
+
+input {
+    border-color: rgb(65, 105, 225, 0.4);
+    box-shadow: 0 0 4px rgb(65, 105, 225, 0.5);
+    outline: none;
+}
+
 
 table {
     table-layout: fixed;

@@ -1,22 +1,35 @@
 <div class="card" style="width: 97%">
+
+
     <div class="container">
+        <h1>Zitat hinzufügen:</h1>
+
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="zitat-text" placeholder="Zitat">
-            <button class="btn btn-royalblue w-17" type="button" id="zitat-neu">Neu</button>
+            <button class="btn dropdown-toggle btn-royalblue" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Name</button>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ida</a></li>
+                <li><a class="dropdown-item" href="#">Albert</a></li>
+                <li><a class="dropdown-item" href="#">Robert</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button"placeholder="Zitat hinzufügen">
+
+            <!-- Datums-Button in Royalblau -->
+            <button id="dateButton" class="btn btn-royalblue" type="button">
+                TT.MM.JJJJ
+            </button>
         </div>
 
-        <!-- LISTENEINTRÄGE DARUNTER ANZEIGEN -->
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item text-royalblue zitat-item">malern</li>
-            <li class="list-group-item text-royalblue zitat-item">it tas .... rum ... , Albert fragt immer, wes ist das und wenn er die Antwort hört, warum? </li>
-        </ul>
+
 
         <!-- BUTTENGROUP MIT DEN NAMEN DARUNTER ANZEIGEN -->
         <div class="btn-namen text-left">
             <div class="btn-group" role="group">
-                <button type="button" class="btn btn-royalblue" id="Zitat-ida">Ida</button>
-                <button type="button" class="btn btn-royalblue" id="zitat-albert">Albert</button>
-                <button type="button" class="btn btn-royalblue" id="Zitat-robert">Robert</button>
+                <button type="button" class="btn btn-royalblue" id="Zitat-hinzufuegen" >Zitat Hinzufügen</button>
             </div>
         </div>
     </div>
