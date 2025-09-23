@@ -1,34 +1,30 @@
+body, .home, :host {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
 .background-image-zitate {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  opacity: 0.7;
   width: 100%;
-  height : 85vh;
+  height : 80vh;
   margin-bottom: 2ex;
   margin-top: 4ex;
   margin-left: 2ex;
   margin-right: 2ex;
 }
 
-.image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(63, 40, 233);
-  font-size: 1.5rem;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.0);
-  text-align: center;
-}
-
 .p-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(56, 10, 183);
-  font-size: 1.5rem;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  color: rgb(30, 3, 104);
+  font-size: 1rem;
   text-align: center;
+  background-color: rgb(240, 241, 248, 0.7);
+  padding: 3ex;
+  border-radius: 10px;
 }

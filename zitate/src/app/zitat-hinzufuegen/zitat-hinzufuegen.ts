@@ -13,22 +13,22 @@ export class ZitatHinzufuegen implements OnInit {
     zitate = [
       {
         id: 1,
-        zitat: "Ida auch komm mit",
+        zitat: "Ida auch komm mit!",
         jahr: 2024,
       },
        {
         id: 2,
-        zitat: "Das dauert voll langweilig",
+        zitat: "Das dauert mir zu langweilig",
         jahr: 2024,
       },
       {
         id: 3,
-        zitat: "Guck mal da sind Meerjungsfrauen drauf",
+        zitat: "Guck mal, da sind Meerjungsfrauen drauf",
         jahr: 2024,
       },
       {
         id: 4,
-        zitat: "jetzt oder doch",
+        zitat: "jetzt oder doch?",
         jahr: 2024,
       },
       {
@@ -36,7 +36,7 @@ export class ZitatHinzufuegen implements OnInit {
         zitat: "Schade leider",
         jahr: 2024,
       },
-      {
+      { 
         id: 6,
         zitat: "baiabaia",
         jahr: 2025,
@@ -48,7 +48,7 @@ export class ZitatHinzufuegen implements OnInit {
       },
       {
         id: 8,
-        zitat: "aufgewachen angelachen",
+        zitat: "aufgewachen angelachen ",
         jahr: 2024,
       },
     ]

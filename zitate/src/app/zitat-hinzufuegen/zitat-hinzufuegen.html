@@ -1,14 +1,13 @@
  <h1>Zitate Ida</h1>
 
-<!-- ZITATE EINFÜGEN-->
-
+<!-- ZITATE EINFÜGEN in eine andere Componente verlegt!
 <div class="container">
     <div class="input-group mb-3">
         <input type="text" class="form-control" id="zitat-text" placeholder="Zitat">
-        <button class="btn btn-royalblue w-17" type="button" id="zitat-neu">Zitat Hinzufügen</button>
+        <button class="btn btn-royalblue w-17" type="button" id="zitat-einfuegen">Zitat Einfuegen</button>
     </div>
  </div>
- <!-- LISTENEINTRÄGE UNTER DER ZITATE HINZUFÜGEN CARD  -->
+LISTENEINTRÄGE UNTER DER ZITATE HINZUFÜGEN CARD  -->
 
 <!-- Liste der hinzugefügten Zitate 
 
@@ -24,29 +23,27 @@
 
     <thead>
             <tr>
-                <th scope="col" width="10%">Nr</th>
-                <th scope="col" width="80%">Zitat</th>
-                <th scope="col" width="10%">Jahr</th>
+                <th scope="col" >Nr</th>
+                <th scope="col" >Zitat</th>
+                <th scope="col">Jahr</th>
             </tr>
         </thead>
         <tbody>
             @for (zitat of zitate; track $index; let i = $index) {
                 <tr>
-                    <td width="10%">{{ i+1 }} </td>
-                    <td width="80%">{{ zitat.zitat }}</td>
-                    <td width="10%">{{ zitat.jahr }}</td>
+                    <td>{{ i+1 }} </td>
+                    <td>{{ zitat.zitat }}</td>
+                    <td>{{ zitat.jahr }}</td>
                 </tr>
             }
         </tbody>
-    </table>
-
-
+ </table>
 
 
  <!-- BUTTENGROUP MIT DEN NAMEN DARUNTER ANZEIGEN -->
         <div class="btn-namen text-left">
             <div class="btn-group" role="group">
-                <button type="button" class="btn btn-royalblue" id="Zitat-loeschen">Löschen</button>
+                <button type="button" class="btn btn-royalblue" id="zitat-loeschen">Löschen</button>
                 <button type="button" class="btn btn-royalblue" id="zitat-bearbeiten">Bearbeiten</button>
             </div>
         </div>

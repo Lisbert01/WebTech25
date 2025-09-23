@@ -1,13 +1,38 @@
-ul.zitate-liste {
-    list-style: none;
-    padding: 5em;
-    margin: 2ex 0;
+h1{
+    text-align: center;
+    margin-top: 2ex;
+    margin-bottom: 2ex;
+    color: royalblue;
 }
 
-ul.zitate-liste li {
-    border-bottom: 1px solid rgb(65, 105, 225, 0.5);
-    padding: 0.7ex 0;
+
+table {
+    width: 80%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin-left: 7em;
 }
+
+th, td, tr {
+    color:  royalblue;
+     word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.btn-group {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/*
 .card {
     min-height: 8ex;
     margin-top: 2ex;
@@ -33,19 +58,10 @@ th, td, tr {
 caption{
     text-align: center;
     margin-top: 2ex;
-    font-size: 1em; /* z.B. 16px, nach Wunsch anpassen */
+    font-size: 1em; /* z.B. 16px, nach Wunsch anpassen 
 }
 
-.btn-group {
-    margin-top: 1ex;
-    margin-bottom: 1ex;
-    display: flex;
-    justify-content: center;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+
 
  
 h1{
@@ -91,3 +107,4 @@ th, td {
 td img {
     width: 20%;
 }
+*/

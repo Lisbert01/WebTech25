@@ -11,57 +11,63 @@ import { ActivatedRoute } from '@angular/router';
 export class ZitateSammlung implements OnInit {
    id: string | null = "";
     zitate = [
-      {
+       {
         id: 1,
-        name:"Ida",
-        zitat: "Ida auch komm mit",
-        jahr: 2023,
+        name: "Ida",        
+        zitat: "Ida auch komm mit!",
+        jahr: 2024,
       },
        {
         id: 2,
-        name:"Ida",
-        zitat: "Das dauert voll langweilig",
+        name: "Ida",
+        zitat: "Das dauert mir zu langweilig",
         jahr: 2024,
       },
       {
         id: 3,
-        name:"Ida",
-        zitat: "Guck mal da sind Meerjungsfrauen drauf",
+        name: "Ida",
+        zitat: "Guck mal, da sind Meerjungsfrauen drauf",
         jahr: 2024,
       },
       {
         id: 4,
-        name:"Ida",
-        zitat: "jetzt oder doch",
+        name: "Ida",
+        zitat: "jetzt oder doch?",
         jahr: 2024,
       },
       {
         id: 5,
-        name:"Ida",
+        name: "Ida",
         zitat: "Schade leider",
         jahr: 2024,
       },
-      {
+      { 
         id: 6,
-        name:"Ida",
+        name: "Ida",
         zitat: "baiabaia",
         jahr: 2025,
       },
        {
         id: 7,
-        name:"Ida",
+        name: "Ida",
         zitat: "Das sag ich meiner Oma!",
         jahr: 2025,
       },
-       {
+      {
         id: 8,
-        name:"Albert",
+        name: "Ida",
+        zitat: "aufgewachen angelachen ",
+        jahr: 2024,
+      },
+       {
+        id: 9,
+        name: "Albert",
         zitat: "Albert malern",
         jahr: 2025,
       },
        {
-        id: 9,
-        name:"Albert",
+        id: 10,
+        name: "Albert",
         zitat: "it das, ... rum",
         jahr: 2025,
       },
