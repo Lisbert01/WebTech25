@@ -5,6 +5,8 @@ h1{
     color: royalblue;
 }
 
+
+
 table {
     width: 97%;
     word-break: break-word;
@@ -22,6 +24,7 @@ th, td, tr {
 caption{
     text-align: center;
     margin-top: 2ex;
+    font-size: 1em; /* z.B. 16px, nach Wunsch anpassen */
 }
 
 

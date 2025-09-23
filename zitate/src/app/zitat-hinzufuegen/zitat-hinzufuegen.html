@@ -1,85 +1,23 @@
-<div class="card" style="width: 97%">
+ <h1>Zitate Ida</h1>
 
+<!-- ZITATE EINFÜGEN-->
 
-    <div class="container">
-        <h1>Zitat hinzufügen:</h1>
-
-        <div class="input-group mb-3">
-            <button class="btn dropdown-toggle btn-royalblue" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Name</button>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Ida</a></li>
-                <li><a class="dropdown-item" href="#">Albert</a></li>
-                <li><a class="dropdown-item" href="#">Robert</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-            </ul>
-            <input type="text" class="form-control" aria-label="Text input with dropdown button"placeholder="Zitat hinzufügen">
-
-            <!-- Datums-Button in Royalblau -->
-            <button id="dateButton" class="btn btn-royalblue" type="button">
-                TT.MM.JJJJ
-            </button>
-        </div>
-
-
-
-        <!-- BUTTENGROUP MIT DEN NAMEN DARUNTER ANZEIGEN -->
-        <div class="btn-namen text-left">
-            <div class="btn-group" role="group">
-                <button type="button" class="btn btn-royalblue" id="Zitat-hinzufuegen" >Zitat Hinzufügen</button>
-            </div>
-        </div>
+<div class="container">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="zitat-text" placeholder="Zitat">
+        <button class="btn btn-royalblue w-17" type="button" id="zitat-neu">Zitat Hinzufügen</button>
     </div>
  </div>
-<!--
-<div class="container">
+ <!-- LISTENEINTRÄGE UNTER DER ZITATE HINZUFÜGEN CARD  -->
 
-    @if(city) {
-        <h1>{{ city.stadt }} </h1>
 
-        <div class="card" style="width: 20%">
-            <img [src]="city.bild" class="card-img-top" [alt]="city.stadt">
-            <div class="card-body">
-              <h5 class="card-title">{{ city.stadt }}</h5>
-              <p class="card-text">
-                <a [href]="city.link">Weitere Informationen über {{ city.stadt }}</a>
-              </p>
-              <a routerLink="/cities" class="btn btn-primary">Zurück</a>
+
+
+ <!-- BUTTENGROUP MIT DEN NAMEN DARUNTER ANZEIGEN -->
+        <div class="btn-namen text-left">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-royalblue" id="Zitat-loeschen">Löschen</button>
+                <button type="button" class="btn btn-royalblue" id="zitat-bearbeiten">Bearbeiten</button>
             </div>
         </div>
 
-    } @else {
-        <h1>Zitate</h1>
-
-    <table class="table table-striped table-responsive">
-        <caption>Ausgewählte Zitate</caption>
-        <thead>
-            <tr>
-                <th scope="col">Nr</th>
-                <th scope="col">Jahr</th>
-                <th scope="col">Stadt</th>
-                <th scope="col">Bild</th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (stadt of staedte; track $index; let i = $index) {
-                <tr>
-                    <td><a [routerLink]="['/cities', i]" class="btn btn-secondary">{{ i+1 }}</a> </td>
-                    <td>{{ zitat.jahr }}</td>
-                    <td>{{ zitat.zitat }}</td>
-                    <td>
-                        <a [href]="stadt.link">
-                            <img [src]=" stadt.bild " [alt]="stadt.stadt " />
-                        </a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    }
-</div>
--->

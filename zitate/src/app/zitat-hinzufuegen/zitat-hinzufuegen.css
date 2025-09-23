@@ -6,15 +6,28 @@
     border-color: rgb(65, 105, 225, 0.5);
 }
 
+.btn-group {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+ 
 h1{
     text-align: center;
-    margin-bottom: 2ex;
-    color: rgb(65, 105, 225);
-}  
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    color: royalblue;
+}
 
 .container{
     margin-top: 3ex;
-    margin-bottom: 7ex;
+    margin-bottom: 3ex;
 }
 
 input, select, textarea {

@@ -8,6 +8,7 @@ import { ZitateSammlung } from './zitate-sammlung/zitate-sammlung';
 export const routes: Routes = [
     { path: "nav", component: Nav },
     { path: "zitat-hinzufuegen", component: ZitatHinzufuegen },
+    { path: "zitat-hinzufuegen/:id", component: ZitatHinzufuegen },
     { path: "zitate-sammlung", component: ZitateSammlung },
     { path: "zitate-sammlung/:id", component: ZitateSammlung },
     //{ path: "login", component: LoginComponent },
