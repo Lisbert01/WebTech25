@@ -1,9 +1,39 @@
+ul.zitate-liste {
+    list-style: none;
+    padding: 5em;
+    margin: 2ex 0;
+}
+
+ul.zitate-liste li {
+    border-bottom: 1px solid rgb(65, 105, 225, 0.5);
+    padding: 0.7ex 0;
+}
 .card {
     min-height: 8ex;
     margin-top: 2ex;
     margin-left: 2ex;
     margin-right: 2ex;
     border-color: rgb(65, 105, 225, 0.5);
+}
+
+table {
+    width: 97%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+th, td, tr {
+    color:  royalblue;
+     word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+caption{
+    text-align: center;
+    margin-top: 2ex;
+    font-size: 1em; /* z.B. 16px, nach Wunsch anpassen */
 }
 
 .btn-group {

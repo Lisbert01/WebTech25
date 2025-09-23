@@ -3,6 +3,7 @@ import { Nav } from './nav/nav';
 import { Home } from './home/home';
 import { ZitatHinzufuegen } from './zitat-hinzufuegen/zitat-hinzufuegen';
 import { ZitateSammlung } from './zitate-sammlung/zitate-sammlung';
+import { Footer } from './footer/footer';
 
 
 export const routes: Routes = [
@@ -13,6 +14,7 @@ export const routes: Routes = [
     { path: "zitate-sammlung/:id", component: ZitateSammlung },
     //{ path: "login", component: LoginComponent },
     { path: "", component: Home},
+    { path: "footer", component: Footer },
     { path: "**", redirectTo: "" }
 ];
 

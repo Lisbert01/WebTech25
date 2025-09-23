@@ -10,6 +10,36 @@
  </div>
  <!-- LISTENEINTRÄGE UNTER DER ZITATE HINZUFÜGEN CARD  -->
 
+<!-- Liste der hinzugefügten Zitate 
+
+<ul class="zitate-liste">
+    @for (zitat of zitate; track zitat.id) {
+        <li>
+            {{ zitat.zitat }} <span style="color: #888; font-size: 0.9em;">({{ zitat.jahr }})</span>
+        </li>
+    }
+</ul>
+-->
+<table class="table">
+
+    <thead>
+            <tr>
+                <th scope="col" width="10%">Nr</th>
+                <th scope="col" width="80%">Zitat</th>
+                <th scope="col" width="10%">Jahr</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (zitat of zitate; track $index; let i = $index) {
+                <tr>
+                    <td width="10%">{{ i+1 }} </td>
+                    <td width="80%">{{ zitat.zitat }}</td>
+                    <td width="10%">{{ zitat.jahr }}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 
 
 
